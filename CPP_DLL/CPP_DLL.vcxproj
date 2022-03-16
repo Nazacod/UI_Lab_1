@@ -152,13 +152,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\UI_Lab_1_gg\CPP_DLL\MKL.h" />
     <ClInclude Include="framework.h" />
+    <ClInclude Include="MKL.h" />
     <ClInclude Include="pch.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\UI_Lab_1_gg\CPP_DLL\MKL.cpp" />
     <ClCompile Include="dllmain.cpp" />
+    <ClCompile Include="MKL.cpp" />
     <ClCompile Include="pch.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
